@@ -6,7 +6,7 @@ public class robo {
 		RobottiImuri robottiImuri1 = new RobottiImuri();
 		
 		robottiImuri1.merkki = "roborock";
-		robottiImuri1.malli = "s6pure";
+		robottiImuri1.malli = "s6maxV";
 		robottiImuri1.akunkesto = 210;
 		robottiImuri1.kaynnisty();
 		robottiImuri1.tulostaTiedot();

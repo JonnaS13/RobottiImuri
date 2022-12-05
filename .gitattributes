@@ -1,2 +1,50 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+public class robo {
+
+	public static void main(String[] args) {
+		//muodostetaan RobottiImuriluokasta olio eli instance
+		RobottiImuri robottiImuri1 = new RobottiImuri();
+		
+		robottiImuri1.merkki = "roborock";
+		robottiImuri1.malli = "s6pure";
+		robottiImuri1.akunkesto = 210;
+		robottiImuri1.kaynnisty();
+		robottiImuri1.tulostaTiedot();
+		
+
+	}
+
+} // Main lopetus
+
+class RobottiImuri 
+		{
+		//ominaisuudet
+		String merkki;
+		String malli;
+		int akunkesto;
+		
+		//toiminnallisuudet
+		public void kaynnisty()
+		{
+			System.out.println("Robotti-imuri päälle");
+		
+		}
+		
+		public void imuroi()
+		{
+			System.out.println("Aloittaa imuroinnin");
+		}
+		
+		public void palaaLaturiin()
+		{
+			System.out.println("Imurointi on päättynyt");
+		}
+		public void tulostaTiedot()
+		{
+			System.out.printf("Imurin tiedot: " + merkki +" " + malli);
+		}
+	
+	
+	
+	}
+

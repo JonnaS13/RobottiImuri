@@ -10,6 +10,7 @@ public class robo {
 		robottiImuri1.akunkesto = 210;
 		robottiImuri1.kaynnisty();
 		robottiImuri1.tulostaTiedot();
+		robottiImuri1.imuroi();
 		
 
 	}

@@ -11,7 +11,7 @@ public class robo {
 		robottiImuri1.kaynnisty();
 		robottiImuri1.tulostaTiedot();
 		robottiImuri1.imuroi();
-		
+		robottiImuri1.palaaLaturiin();
 
 	}
 
